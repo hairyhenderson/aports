@@ -1,0 +1,26 @@
+# Contributor:
+# Maintainer:
+pkgname=upx
+_repo="github.com/upx/$pkgname"
+pkgver=3.92
+pkgrel=0
+pkgdesc="A free, portable, extendable, high-performance executable packer for several executable formats"
+url="https://upx.github.io"
+arch="all"
+license="GPL"
+depends=""
+makedepends="gcc"
+install=""
+subpackages=""
+source="$pkgname-$pkgver.tar.gz::https://$_repo/archive/v$pkgver.tar.gz"
+builddir="$srcdir/"
+
+build() {
+	cd "$builddir"
+    
+}
+
+package() {
+	cd "$builddir"
+}
+
